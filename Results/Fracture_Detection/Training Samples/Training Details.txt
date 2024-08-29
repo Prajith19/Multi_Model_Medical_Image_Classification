@@ -1,0 +1,122 @@
+Python 3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.20.0 -- An enhanced Interactive Python.
+
+runfile('C:/(D)/Prajith K/Studies/Projects/Final Project/Project/Multi_Model_Medical_Image_Classification_Detection/Training and Testing codes/Body_Fractured_train.py', wdir='C:/(D)/Prajith K/Studies/Projects/Final Project/Project/Multi_Model_Medical_Image_Classification_Detection/Training and Testing codes')
+Loading data from C:/(D)/Prajith K/Studies/Projects/Final Project/Project/Multi_Model_Medical_Image_Classification_Detection/Data sets/Bone_Fracture_Data_Set for body part: Elbow
+Found 3885 validated image filenames belonging to 2 classes.
+Found 971 validated image filenames belonging to 2 classes.
+Found 540 validated image filenames belonging to 2 classes.
+-------Training Elbow-------
+Epoch 1/25
+C:\Users\Prajith K\anaconda3\Lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+61/61 ━━━━━━━━━━━━━━━━━━━━ 137s 2s/step - accuracy: 0.5827 - loss: 0.7965 - val_accuracy: 0.7044 - val_loss: 0.5961
+Epoch 2/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.7175 - loss: 0.5778 - val_accuracy: 0.7364 - val_loss: 0.5525
+Epoch 3/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 112s 2s/step - accuracy: 0.7558 - loss: 0.5220 - val_accuracy: 0.7703 - val_loss: 0.5161
+Epoch 4/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 116s 2s/step - accuracy: 0.7833 - loss: 0.4748 - val_accuracy: 0.7570 - val_loss: 0.5196
+Epoch 5/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.7992 - loss: 0.4502 - val_accuracy: 0.7642 - val_loss: 0.5084
+Epoch 6/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 108s 2s/step - accuracy: 0.8032 - loss: 0.4486 - val_accuracy: 0.7590 - val_loss: 0.4980
+Epoch 7/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.8106 - loss: 0.4249 - val_accuracy: 0.7642 - val_loss: 0.4918
+Epoch 8/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 111s 2s/step - accuracy: 0.8117 - loss: 0.4254 - val_accuracy: 0.7683 - val_loss: 0.4812
+Epoch 9/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.8239 - loss: 0.4003 - val_accuracy: 0.7683 - val_loss: 0.4908
+Epoch 10/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 110s 2s/step - accuracy: 0.8313 - loss: 0.3971 - val_accuracy: 0.7786 - val_loss: 0.4738
+Epoch 11/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.8521 - loss: 0.3610 - val_accuracy: 0.7899 - val_loss: 0.4671
+Epoch 12/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.8531 - loss: 0.3579 - val_accuracy: 0.7858 - val_loss: 0.4659
+Epoch 13/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.8577 - loss: 0.3478 - val_accuracy: 0.7837 - val_loss: 0.4476
+Epoch 14/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.8642 - loss: 0.3366 - val_accuracy: 0.7765 - val_loss: 0.4754
+Epoch 15/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.8726 - loss: 0.3366 - val_accuracy: 0.7775 - val_loss: 0.5000
+Epoch 16/25
+61/61 ━━━━━━━━━━━━━━━━━━━━ 109s 2s/step - accuracy: 0.8639 - loss: 0.3281 - val_accuracy: 0.7992 - val_loss: 0.4619
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Elbow Results:
+[0.40915006399154663, 0.8444444537162781]
+Test Accuracy: 84.44%
+Loading data from C:/(D)/Prajith K/Studies/Projects/Final Project/Project/Multi_Model_Medical_Image_Classification_Detection/Data sets/Bone_Fracture_Data_Set for body part: Hand
+Found 4322 validated image filenames belonging to 2 classes.
+Found 1080 validated image filenames belonging to 2 classes.
+Found 601 validated image filenames belonging to 2 classes.
+-------Training Hand-------
+Epoch 1/25
+C:\Users\Prajith K\anaconda3\Lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+68/68 ━━━━━━━━━━━━━━━━━━━━ 145s 2s/step - accuracy: 0.7181 - loss: 0.5937 - val_accuracy: 0.7546 - val_loss: 0.5373
+Epoch 2/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 123s 2s/step - accuracy: 0.7573 - loss: 0.5285 - val_accuracy: 0.7787 - val_loss: 0.5130
+Epoch 3/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 123s 2s/step - accuracy: 0.7675 - loss: 0.5046 - val_accuracy: 0.7861 - val_loss: 0.5013
+Epoch 4/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 122s 2s/step - accuracy: 0.7952 - loss: 0.4562 - val_accuracy: 0.7861 - val_loss: 0.4962
+Epoch 5/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 123s 2s/step - accuracy: 0.7910 - loss: 0.4586 - val_accuracy: 0.7852 - val_loss: 0.5015
+Epoch 6/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 122s 2s/step - accuracy: 0.8150 - loss: 0.4400 - val_accuracy: 0.7907 - val_loss: 0.4856
+Epoch 7/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 124s 2s/step - accuracy: 0.8150 - loss: 0.4316 - val_accuracy: 0.8009 - val_loss: 0.4841
+Epoch 8/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 126s 2s/step - accuracy: 0.8273 - loss: 0.4206 - val_accuracy: 0.7657 - val_loss: 0.4954
+Epoch 9/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 123s 2s/step - accuracy: 0.8220 - loss: 0.4097 - val_accuracy: 0.7935 - val_loss: 0.4782
+Epoch 10/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 123s 2s/step - accuracy: 0.8405 - loss: 0.3891 - val_accuracy: 0.7602 - val_loss: 0.5036
+Epoch 11/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 121s 2s/step - accuracy: 0.8331 - loss: 0.3945 - val_accuracy: 0.7861 - val_loss: 0.4817
+Epoch 12/25
+68/68 ━━━━━━━━━━━━━━━━━━━━ 123s 2s/step - accuracy: 0.8453 - loss: 0.3841 - val_accuracy: 0.7954 - val_loss: 0.5185
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Hand Results:
+[0.4814465045928955, 0.7886855006217957]
+Test Accuracy: 78.87%
+Loading data from C:/(D)/Prajith K/Studies/Projects/Final Project/Project/Multi_Model_Medical_Image_Classification_Detection/Data sets/Bone_Fracture_Data_Set for body part: Shoulder
+Found 6434 validated image filenames belonging to 2 classes.
+Found 1608 validated image filenames belonging to 2 classes.
+Found 894 validated image filenames belonging to 2 classes.
+-------Training Shoulder-------
+Epoch 1/25
+C:\Users\Prajith K\anaconda3\Lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+101/101 ━━━━━━━━━━━━━━━━━━━━ 209s 2s/step - accuracy: 0.5689 - loss: 0.7508 - val_accuracy: 0.6878 - val_loss: 0.5899
+Epoch 2/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 181s 2s/step - accuracy: 0.7047 - loss: 0.5731 - val_accuracy: 0.7195 - val_loss: 0.5775
+Epoch 3/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 183s 2s/step - accuracy: 0.7426 - loss: 0.5299 - val_accuracy: 0.7152 - val_loss: 0.5578
+Epoch 4/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 183s 2s/step - accuracy: 0.7536 - loss: 0.5220 - val_accuracy: 0.7450 - val_loss: 0.5428
+Epoch 5/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 181s 2s/step - accuracy: 0.7639 - loss: 0.5047 - val_accuracy: 0.7326 - val_loss: 0.5278
+Epoch 6/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 185s 2s/step - accuracy: 0.7825 - loss: 0.4739 - val_accuracy: 0.7444 - val_loss: 0.5405
+Epoch 7/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 182s 2s/step - accuracy: 0.7799 - loss: 0.4687 - val_accuracy: 0.7537 - val_loss: 0.5236
+Epoch 8/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 182s 2s/step - accuracy: 0.7951 - loss: 0.4496 - val_accuracy: 0.7388 - val_loss: 0.5361
+Epoch 9/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 182s 2s/step - accuracy: 0.8011 - loss: 0.4400 - val_accuracy: 0.7438 - val_loss: 0.5189
+Epoch 10/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 182s 2s/step - accuracy: 0.8046 - loss: 0.4227 - val_accuracy: 0.7488 - val_loss: 0.5146
+Epoch 11/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 183s 2s/step - accuracy: 0.8241 - loss: 0.4062 - val_accuracy: 0.7469 - val_loss: 0.5256
+Epoch 12/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 181s 2s/step - accuracy: 0.8226 - loss: 0.4054 - val_accuracy: 0.7357 - val_loss: 0.5388
+Epoch 13/25
+101/101 ━━━━━━━━━━━━━━━━━━━━ 181s 2s/step - accuracy: 0.8300 - loss: 0.3953 - val_accuracy: 0.7338 - val_loss: 0.5439
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Shoulder Results:
+[0.546566903591156, 0.7516778707504272]
+Test Accuracy: 75.17%
+<Figure size 432x288 with 0 Axes>
