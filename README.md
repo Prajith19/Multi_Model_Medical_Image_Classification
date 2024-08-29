@@ -8,7 +8,7 @@ This project is my Undergraduate Final Year Project, focusing on the classificat
 
 ### Set Up:
 > * Update the path to the weights in the main.py file to match your local directory.  
-> * Install all necessary packages by referring to the requirements.txt file (if available) or manually installing the required libraries.  
+> * Install all necessary packages by manually installing the required libraries.  
 
 ### Running the Project:
 > * Run main.py.  
